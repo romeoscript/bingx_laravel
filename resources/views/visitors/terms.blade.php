@@ -286,7 +286,7 @@ window.smartsupp||(function(d) {
          6. Closing an Account and Cancellation of this Agreement
          <br/>
          a) Either party may terminate this Agreement by giving 10 (Ten) business days written notice by email to
-                                support@bingx-finance.com, of termination to the other party. Either party may terminate this Agreement immediately
+                                support@bingxfinance.com, of termination to the other party. Either party may terminate this Agreement immediately
                                 in any case of any breach of this Agreement or event of Default by the other Party. Upon terminating notice of
                                 this Agreement, the Client shall be under obligation to close all open positions, otherwise, the notice shall
                                 become void, or the Company shall have the right to close all open positions without assuming any responsibility.
@@ -473,17 +473,17 @@ window.smartsupp||(function(d) {
 </p>
 <p>
             
-             Email: <br/> <a href='"mailto:support@bingx-finance"' style="text-decoration: none; color: white;">support@bingx-finance.com</a>
+             Email: <br/> <a href='"mailto:support@bingx-finance"' style="text-decoration: none; color: white;">support@bingxfinance.com</a>
 </p>
 <p>
             
             
-              Address: <br/> support@bingx-finance.com
+              Address: <br/> support@bingxfinance.com
             
             
           </p>
 <p>
-           Second Address: support@bingx-finance.com
+           Second Address: support@bingxfinance.com
             
           </p>
 </div>

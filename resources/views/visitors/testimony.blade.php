@@ -388,17 +388,17 @@ window.smartsupp||(function(d) {
 </p>
 <p>
           
-           Email: <br/> <a href='"mailto:support@bingx-finance"' style="text-decoration: none; color: white;">support@bingx-finance.com</a>
+           Email: <br/> <a href='"mailto:support@bingx-finance"' style="text-decoration: none; color: white;">support@bingxfinance.com</a>
 </p>
 <p>
           
           
-            Address: <br/> support@bingx-finance.com
+            Address: <br/> support@bingxfinance.com
           
           
         </p>
 <p>
-         Second Address: support@bingx-finance.com
+         Second Address: support@bingxfinance.com
           
         </p>
 </div>
