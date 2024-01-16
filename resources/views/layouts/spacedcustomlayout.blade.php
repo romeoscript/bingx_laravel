@@ -1,285 +1,356 @@
-
-
 <!DOCTYPE html>
-<html lang="en"><meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<html lang="en">
+
 <head>
-        <meta charset="utf-8">
-        <title>{{$title}} | {{$company_features? $company_features->companyname :"No company name set"}}</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-        <!-- Favicon -->
-        <link href="{{asset('img/bitpaddyltd_icon.jpg')}}" rel="icon">
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
-
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="{{asset('lib/flaticon/font/flaticon.css')}}" rel="stylesheet"> 
-        <link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
-        <link href="{{asset('lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
-        <link href="{{asset('lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
-        <link href="{{asset('lib/slick/slick.css')}}" rel="stylesheet">
-        <link href="{{asset('lib/slick/slick-theme.css')}}" rel="stylesheet">
-
-        <!-- Template Stylesheet -->
-        <link href="{{asset('css/style.css')}}" rel="stylesheet">
-
-        <!-- Smartsupp Live Chat script -->
-<script type="text/javascript">
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = '32c7dd8526cbe92474f7940dae3afe59897e5bf5';
-window.smartsupp||(function(d) {
-  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-  c.type='text/javascript';c.charset='utf-8';c.async=true;
-  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-})(document);
-</script>
-<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
-        
-    </head>
-
-    <body>
-      <!--Start of Tawk.to Script-->
-
-<!--End of Tawk.to Script-->    <div class="wrapper">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Discover how we help individuals, families, institutions and governments raise, manage and distribute the capital they need to achieve their goals.">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1669/1669668.png" type="image/x-icon">
+    <title>Bingx Finance | Invest Today</title>
 
 
-            <!-- Top Bar Start -->
-            <div class="top-bar">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-12">
-                            <div class="logo">
-                                <a href="{{route('index')}}">
-                                    <!-- <h1>Builderz</h1> -->
-                                    <img src="{{asset('img/Bitpaddy-logo.png')}}" alt="{{$company_features? $company_features->companyname :"No company name set"}}">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-8 col-md-7 d-none d-lg-block">
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-calendar"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>Opening Hour</h3>
-                                            <p>Mon - sun, 8:00 - 9:00</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="ytWidget" style="float: right !important;     position: fixed; z-index: 1000;right: 10px;bottom: 100px;"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=en&widgetTheme=light&autoMode=true" type="text/javascript"></script>
-			
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-call"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>Call Us</h3>
-                                            <p>{{$company_features? $company_features->companyphone :"No company phone set"}}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-send-mail"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>Mail Us</h3>
-                                            <p>{{$company_features? $company_features->companyemail :"No company email set"}}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Mobirise v5.3.4, mobirise.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1669/1669668.png" type="image/x-icon">
+    <meta name="description" content="">
+
+
+    <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+    <link rel="stylesheet" href="assets/tether/tether.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/dropdown/css/style.css">
+    <link rel="stylesheet" href="assets/socicon/css/styles.css">
+    <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&amp;display=swap">
+    </noscript>
+    <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
+    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <link href="https://monixlimited.biz/home/home/content/dist/animate.min.css" rel="stylesheet" />
+    <link href="https://monixlimited.biz/home/home/content/dist/fake-notification-min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section class="menu menu2 cid-st9UetCg9i" once="menu" id="menu2-k">
+
+        <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+            <div style="padding: 0; margin-left: -2px; width: 100vw; border: transparent;">
+                <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+                <coingecko-coin-price-marquee-widget coin-ids="bitcoin,eos,ethereum,litecoin,ripple,usd-coin" currency="usd" background-color="#ffffff" locale="en" font-color="steelblue"></coingecko-coin-price-marquee-widget>
             </div>
-            <div id="ytWidget" style="float: right !important;     position: fixed; z-index: 1000;right: 10px;bottom: 100px;"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=en&widgetTheme=light&autoMode=true" type="text/javascript"></script>
-			
-            <!-- Top Bar End -->
-
-
-
-            <!-- Nav Bar Start -->
-            <div class="nav-bar" style="background-color: #030f27;">
-                <div class="container-fluid">
-                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                        <a href="{{route('login')}}" class="navbar-brand"><h3 style="color:white">LOGIN</h3></a>
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                            <div class="navbar-nav mr-auto">
-                                <a href="{{route('index')}}" class="nav-item nav-link ">HOME</a>
-                                <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle " data-toggle="dropdown">ABOUT US</a>
-                                    <div class="dropdown-menu">
-                                        <a href="{{route('about')}}" class="dropdown-item">About Us</a>
-                                         <a href="#" class="dropdown-item"><hr></a>
-                                        <a href="{{route('terms')}}" class="dropdown-item">Term And Condition</a>
-                                    </div>
-                                </div>
-
-                                 <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">LOG IN</a>
-                                    <div class="dropdown-menu">
-                                        <a href="{{route('login')}}" class="dropdown-item">Access  Account</a>
-                                        <a href="#" class="dropdown-item"><hr></a>
-                                        <a href="{{route('password.request')}}" class="dropdown-item">Retrive Account</a>
-                                    </div>
-                                </div>
-
-                                <a href="{{route('register')}}" class="nav-item nav-link">CREATE ACCOUNT</a>
-                                <a href="{{route('faq')}}" class="nav-item nav-link">F.A.Q</a>
-                                <a href="{{route('contact')}}" class="nav-item nav-link">CONTACT US</a>
-                            </div>
-                            <div class="ml-auto">
-                                <a class="btn" href="{{asset('img/bitpaddyltd%20certificate%20of%20incorporation.pdf')}}" target="_blank">VIEW COMPANY CERTIFICATE</a>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-            <!-- Nav Bar End -->
-
-
-          
-
-             <div style="padding:10px;background-color:#ba7803;background-image: url('{{asset("img/longlivechat.jpg")}}');background-size:cover;">
-                 <iframe src="https://widget.coinlib.io/widget?type=horizontal_v2&amp;theme=light&amp;pref_coin_id=1505&amp;invert_hover=no" width="100%" height="36px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0"></iframe>            </div>
-           
-
-								@yield('body')
-
-								
-
-
-								
-            <!-- Footer Start -->
-            <div class="footer wow fadeIn" data-wow-delay="0.3s" style="border-top:10px solid #fdbe33;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-3">
-                            <div class="footer-contact">
-                                <h2>Office Contact</h2>
-                                <p><i class="fa fa-map-marker-alt"></i>{{$company_features? $company_features->companylocation :"No company address set"}} </p>
-                                <p><i class="fa fa-phone-alt"></i>{{$company_features? $company_features->companyphone :"No company phone set"}}</p>
-                                <p><i class="fa fa-envelope"></i>{{$company_features? $company_features->companyemail :"No company email set"}}</p>
-                                <p><a href="https://www.facebook.com/{{$company_features? $company_features->companyName :"No company name set"}}-101311525722961/" target="_blank" style=" color:white;"><i class="fab fa-facebook-f"></i> Facebook.com/{{$company_features? $company_features->companyname :"No company name set"}}</a></p>
-                                <p>
-                                <a href="https://www.instagram.com/{{$company_features? $company_features->companyName :"No company name set"}}" target="_blank" style=" color:white;"><i class="fab fa-instagram"></i>@ {{$company_features? $company_features->companyname :"No company name set"}}</a>
-                                </p>
-                            <div class="footer-social">
-                               <img src="{{asset('img/lock/avg.png')}}" width="30%">
-                               <img src="{{asset('img/lock/dnb.png')}}" width="30%">
-                               <img src="{{asset('img/lock/geo.png')}}" width="30%">
-                            </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="footer-link">
-                                <h2>Account Areas</h2>
-                                <a href="{{route('login')}}">Login</a>
-                                <a href="{{route('register')}}">Sign Up</a>
-                                <a href="{{route('password.request')}}">forget Password</a>
-                                <a href="{{asset('img/bitrally%20certificate%20of%20incorporation.pdf')}}" target="_blank">View Certificate</a>
-                                <a href="https://find-and-update.company-information.service.gov.uk/company/13115652" target="_blank">Verify Certificate</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="footer-link">
-                                <h2>Useful Pages</h2>
-                                <a href="{{route('about')}}">About Us</a>
-                                <a href="{{route('contact')}}">Contact Us</a>
-                                <a href="{{route('terms')}}">Teams and Conditions</a>
-                                <a href="{{route('faq')}}">F.A.Q</a>
-                                <a href="{{route('login')}}">Start Earning</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="newsletter">
-                                <h2>Daily News Feed</h2>
-                                <p>
-                                    You are a member or not but you wish to get daily news feed from us <b>{{$company_features? $company_features->companyname :"No company name set"}}</b>. Drop your mail to gain access free
-
-                                </p>
-                                <div class="form">
-                                    <form method="post">
-                                                                                <input name="email" class="form-control" placeholder="Email here" required>
-                                        <button type="button" name="" class="btn">Submit</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container footer-menu">
-                    <div class="f-menu">
-                        <a href="#">
-    <div id="google_translate_element" class="google_translate" style="border:2px solid #ffa800;padding:5px;border-radius:7px;"></div> <script type="text/javascript">
-          function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-              pageLanguage: 'en',
-              layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-            }, 'google_translate_element');
-          }
-</script>
-<script type="text/javascript" src="https://translate.google.com/translate_a/elementa0d8.html?cb=googleTranslateElementInit"></script>                                
-                                
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    <span class="navbar-logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="Easybe style=" height: 2rem;">
                         </a>
-                    </div>
+                    </span>
+                    <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="index.html">Bingx Finance</a></span>
                 </div>
-                <div class="container copyright">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>&copy; <a href="#">{{$company_features? $company_features->companyname :"No company name set"}}.top</a>, All Right Reserved. 2021 </p>
-                        </div>
-                        <div class="col-md-6">
-                            <p>
-                        <a href="#"><img src="{{asset('img/payment/pay3.png')}}" width="10%"></a>
-                          <a href="#"><img src="{{asset('img/payment/pay1.png')}}" width="10%"></a>
-                          <a href="#"><img src="{{asset('img/payment/pay2.png')}}" width="10%"></a>
-                          <a href="#"><img src="{{asset('img/payment/pay4.png')}}" width="10%"></a>
-                          <a href="#"><img src="{{asset('img/payment/pay5.png')}}" width="10%"></a>
-                          <a href="#"><img src="{{asset('img/payment/pay6.png')}}" width="10%"></a>
-                          <a href="#"><img src="{{asset('img/payment/pay7.png')}}" width="10%"></a>
-                            </p>
-                        </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+                        <li class="nav-item"><a class="nav-link link text-black display-4" href="about.html">
+                                Who we are</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link link text-black dropdown-toggle display-4" href="services.html" data-toggle="dropdown-submenu" aria-expanded="false">Sector</a>
+                            <div class="dropdown-menu"><a class="text-black dropdown-item display-4" href="real-estate.html">Real Estate</a><a class="text-black dropdown-item display-4" href="financial-services.html" aria-expanded="false">Financial Services</a><a class="text-black dropdown-item display-4" href="cryptocurrency.html" aria-expanded="false">cryptocurrency</a><a class="text-black dropdown-item display-4" href="health-care.html" aria-expanded="false">Health Care</a><a class="text-black dropdown-item display-4" href="information-technology.html" aria-expanded="false">Infomation technology</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link link text-black display-4" href="services.html">
+                                Services</a></li>
+                        <li class="nav-item"><a class="nav-link link text-black display-4" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link link text-black display-4" href="investing.html">Investing</a>
+                        </li>
+
+
+
+                    </ul>
+
+                    <div class="navbar-buttons mbr-section-btn">
+                        <a class="btn btn-success display-4" href="login.html">
+                            Access portal</a>
+                        <a class="btn btn-success display-4" href="register.html">
+                            Smart investor</a>
+
                     </div>
                 </div>
             </div>
-            <!-- Footer End -->
+        </nav>
+    </section>
 
 
-            <!-- <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a> -->
+    @yield('body')
+
+
+
+
+
+    <!-- Footer Start -->
+    <section class="footer1 cid-st9V0bovg1" once="footers" id="footer1-p">
+
+
+
+        <div class="container">
+            <div class="row mbr-white">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                        <strong>Contact</strong>
+                    </h5>
+                    <ul class="list mbr-fonts-style display-4">
+                        <ul class="list mbr-fonts-style display-4">
+                            <li class="mbr-text item-wrap">support@bingxfinance.com</li>
+                            <li class="mbr-text item-wrap"> +17862927610</li>
+                            <li class="mbr-text item-wrap">Meadowbrook Mall Rd Bridgeport, WV 26330, USA </li>
+
+                        </ul>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                        <strong>Themes</strong>
+                    </h5>
+                    <ul class="list mbr-fonts-style display-4">
+                        <a href="privacy-policy.html" class="mbr-text item-wrap"> <span style="color: steelblue;">&gt;</span> Privacy policy</a><br>
+                        <a href="term-and-condition.html" class="mbr-text item-wrap"> <span style="color: steelblue;">&gt;</span> Terms and condition</a><br>
+                        <a href="refund-policy.html" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span> Refund policy</a><br>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                        <strong>Qiuck Link</strong>
+                    </h5>
+                    <ul class="list mbr-fonts-style display-4">
+                        <a href="index.html" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span> Home
+                        </a> <br>
+                        <a href="contact.html" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span>
+                            Contact</a><br>
+                        <a href="about.html" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span> About
+                            Us</a><br>
+                        <a href="services.html" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span>
+                            services</a><br>
+
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                        <strong>About</strong>
+                    </h5>
+                    <p class="mbr-text mbr-fonts-style mb-4 display-4">
+                        Bingx Finance is a distinctive investment company offering investors to high growth
+                        investment opportunity in the Tech space, finance market and other services.</p>
+                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">
+
+                    </h5>
+                </div>
+
+            </div>
         </div>
 
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="{{asset('lib/easing/easing.min.js')}}"></script>
-        <script src="{{asset('lib/wow/wow.min.js')}}"></script>
-        <script src="{{asset('lib/owlcarousel/owl.carousel.min.js')}}"></script>
-        <script src="{{asset('lib/isotope/isotope.pkgd.min.js')}}"></script>
-        <script src="{{asset('lib/lightbox/js/lightbox.min.js')}}"></script>
-        <script src="{{asset('lib/waypoints/waypoints.min.js')}}"></script>
-        <script src="{{asset('lib/counterup/counterup.min.js')}}"></script>
-        <script src="{{asset('lib/slick/slick.min.js')}}"></script>
+        <div id="notification-1" class="notification">
+            <div class="notification-block">
+                <div class="notification-img">
+                    <!-- Your image or icon -->
+                    <i class="fa fa-dollar-sign" aria-hidden="true"></i>
+                    <!-- $ -->
+                    <!-- / Your image or icon -->
+                </div>
+                <div class="notification-text-block">
+                    <div class="notification-title">
+                        <!-- Notification Title -->
+                        <!-- Earning -->
+                        <!-- / Notification Title -->
+                    </div>
+                    <div class="notification-text"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!-- Template Javascript -->
-        <script src="{{asset('js/main.js')}}"></script>
-        <script src="{{asset('js/stats.js')}}"></script>
+    <section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: none;">
+        <a href="https://mobirise.site/p" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a>
+        <p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/c" style="color:#aaa;">The</a> web page was built with Mobirise</p>
+    </section>
+
+    <script src="assets/web/assets/jquery/jquery.min.js"></script>
+    <script src="assets/popper/popper.min.js"></script>
+    <script src="assets/tether/tether.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="assets/dropdown/js/nav-dropdown.js"></script>
+    <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+    <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+    <script src="assets/parallax/jarallax.min.js"></script>
+    <script src="assets/theme/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://monixlimited.biz/home/home/content/dist/jquery.fake-notification.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(".carousel-client").bxSlider({
+                auto: true,
+                slideWidth: 234,
+                minSlides: 2,
+                maxSlides: 5,
+                controls: false,
+            });
+            $("#notification-1").Notification({
+                // Notification varibles
+                Varible1: [
+                    "Dirk",
+                    "Johnny",
+                    "Watkin ",
+                    "Alejandro",
+                    "Vina",
+                    "Tony",
+                    "Ahmed",
+                    "Jackson",
+                    "Noah",
+                    "Aiden",
+                    "Darren",
+                    "Isabella",
+                    "Aria",
+                    "John",
+                    "Greyson",
+                    "Peter",
+                    "Mohammed",
+                    "William",
+                    "Lucas",
+                    "Amelia",
+                    "Mason",
+                    "Mathew",
+                    "Richard",
+                    "Chris",
+                    "Mia",
+                    "Oliver",
+                ],
+                Varible2: [
+                    "USA",
+                    "UAE",
+                    "ITALY",
+                    "FLORIDA",
+                    "MEXICO",
+                    "INDIA",
+                    "CHINA",
+                    "CAMBODIA",
+                    "UNITED KINGDOM",
+                    "GERMANY",
+                    "AUSTRALIA",
+                    "BANGLADESH",
+                    "SWEDEN",
+                    "PAKISTAN",
+                    "MALDIVES",
+                    "SEYCHELLES",
+                    "BOLIVIA",
+                    "SOUTH AFRICA",
+                    "ZAMBIA",
+                    "ZIMBABWE",
+                    "SAUDI ARABIA",
+                    "CHILE",
+                    "SWEDEN",
+                    "VENEZUELA",
+                    "PUERTO RICO",
+                ],
+
+                Amount: [1000, 2500, 5555, 6666, 4444, 3333, 3333],
+                Content: "[Varible1] from [Varible2] has just withdrawn <b>$[Amount]</b>.",
+                // Timer
+                Show: ["stable", 5, 10],
+                Close: 5,
+                Time: [0, 23],
+                // Notification style
+                LocationTop: [false, "30%"],
+                LocationBottom: [true, "31%"],
+                LocationRight: [true, "10%"],
+                LocationLeft: [false, "10px"],
+                Background: "#000000",
+                BorderRadius: 5,
+                BorderWidth: 1,
+                BorderColor: "#091765",
+                TextColor: "white",
+                IconColor: "#ffffff",
+                // Notification Animated
+                AnimationEffectOpen: "slideInUp",
+                AnimationEffectClose: "slideOutDown",
+                // Number of notifications
+                Number: 40,
+                // Notification link
+                Link: [false, "index.html", "_blank"],
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Arrays of first and last names
+            const firstNames = [
+                "Alex", "Jordan", "Taylor", "Morgan", "Casey", "Jamie", "Avery", "Riley", "Quinn", "Blake",
+                "Charlie", "Dakota", "Elliot", "Frankie", "Harper", "Jesse", "Kai", "Logan", "Max", "Nicky",
+                "Peyton", "Reese", "Skyler", "Terry", "Addison", "Bailey", "Cameron", "Drew", "Eden", "Finley",
+                "Gray", "Hayden", "Indigo", "Jules", "Kendall", "London", "Marley", "Noel", "Oakley", "Paris"
+            ];
+
+            const lastNames = [
+                "Johnson", "Williams", "Brown", "Jones", "Miller", "Davis", "Garcia", "Rodriguez", "Wilson", "Martinez",
+                "Anderson", "Taylor", "Thomas", "Hernandez", "Moore", "Martin", "Jackson", "Thompson", "White", "Lopez",
+                "Lee", "Gonzalez", "Harris", "Clark", "Lewis", "Robinson", "Walker", "Perez", "Hall", "Young",
+                "Allen", "Sanchez", "Wright", "King", "Scott", "Green", "Baker", "Adams", "Nelson", "Hill"
+            ];
 
 
- 
-     
-    </body>
+            // Function to generate a random name
+            function getRandomName() {
+                const firstName = firstNames[Math.floor(Math.random() * firstNames.length)];
+                const lastName = lastNames[Math.floor(Math.random() * lastNames.length)];
+                return `${firstName} ${lastName}`;
+            }
 
-	</html>
+            // Function to generate random dollar amounts
+            function getRandomAmount(min, max) {
+                return `$${(Math.random() * (max - min) + min).toFixed(2)}`;
+            }
+
+            // Get all table rows
+            const rows = document.querySelectorAll('.table tbody tr');
+
+            function updateTable() {
+                rows.forEach(row => {
+                    // Get the name and amount cells using class
+                    const nameCell = row.querySelector('.name');
+                    const amountCell = row.querySelector('.amount');
+
+                    // Set a random name
+                    nameCell.textContent = getRandomName();
+
+                    // Set a random amount within a range
+                    amountCell.textContent = getRandomAmount(50, 1000);
+                });
+            }
+            setInterval(updateTable, 2000);
+        });
+    </script>
+
+
+    <script src="https://code.jivosite.com/widget/GR5cUkrgYp" async></script>
+
+</body>
+
+</html>
