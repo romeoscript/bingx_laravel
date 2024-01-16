@@ -44,7 +44,7 @@
     <span class="img-div">
     <div class="text-center img-placeholder" onClick="triggerClick('#getcatimage')" style="height: 200px; width: 200px;">
     </div>
-    <img src="assets/choose.jpg" onClick="triggerClick('#getcatimage')" id="dispcatimage" class='profileDisplay' style="height: 200px; width: 200px;">
+    <img src="bingx/assets/choose.jpg" onClick="triggerClick('#getcatimage')" id="dispcatimage" class='profileDisplay' style="height: 200px; width: 200px;">
     </span>
     <input type="file" name="image" onChange="displayImage(this,'#dispcatimage')" id="getcatimage" class="form-control" style="display:none;">
     </div>

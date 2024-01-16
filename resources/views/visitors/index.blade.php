@@ -47,7 +47,7 @@
                      </div>
                      <div class="col-12 col-lg-6">
                             <div class="image-wrapper">
-                                   <img src="assets/images/purpose.jpg" alt="Mobirise">
+                                   <img src="bingx/assets/images/purpose.jpg" alt="Mobirise">
                             </div>
                      </div>
               </div>
@@ -973,7 +973,7 @@
                      <div class="item features-image сol-12 col-md-6 col-lg-4">
                             <div class="item-wrapper">
                                    <div class="item-img">
-                                          <img src="assets/images/invest.jpg" alt="" title="">
+                                          <img src="bingx/assets/images/invest.jpg" alt="" title="">
                                    </div>
                                    <div class="item-content">
                                           <h6 class="item-subtitle mbr-fonts-style mt-1 display-7">WEALTH PLANNING </h6>
@@ -991,7 +991,7 @@
                      <div class="item features-image сol-12 col-md-6 col-lg-4">
                             <div class="item-wrapper">
                                    <div class="item-img">
-                                          <img src="assets/images/goals.jpg" alt="" title="">
+                                          <img src="bingx/assets/images/goals.jpg" alt="" title="">
                                    </div>
                                    <div class="item-content">
                                           <h6 class="item-subtitle mbr-fonts-style mt-1 display-7">
@@ -1010,7 +1010,7 @@
                      <div class="item features-image сol-12 col-md-6 col-lg-4">
                             <div class="item-wrapper">
                                    <div class="item-img">
-                                          <img src="assets/images/lend.jpg" alt="" title="">
+                                          <img src="bingx/assets/images/lend.jpg" alt="" title="">
                                    </div>
                                    <div class="item-content">
                                           <h6 class="item-subtitle mbr-fonts-style mt-1 display-7">BORROWING</h6>
@@ -1042,7 +1042,7 @@
                      <div class="row align-items-center">
                             <div class="col-12 col-lg-6">
                                    <div class="image-wrapper">
-                                          <img src="assets/images/card.png" alt="Mobirise">
+                                          <img src="bingx/assets/images/card.png" alt="Mobirise">
                                    </div>
                             </div>
                             <div class="col-12 col-lg">

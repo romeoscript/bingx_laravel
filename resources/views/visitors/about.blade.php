@@ -45,7 +45,7 @@
             </div>
             <div class="col-12 col-lg-6">
                 <div class="image-wrapper">
-                    <img src="assets/images/we.jpg" alt="Mobirise">
+                    <img src="bingx/assets/images/we.jpg" alt="Mobirise">
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
         <div class="row align-items-center">
             <div class="col-12 col-lg-6">
                 <div class="image-wrapper">
-                    <img src="assets/images/purpose.jpg" alt="Mobirise">
+                    <img src="bingx/assets/images/purpose.jpg" alt="Mobirise">
                 </div>
             </div>
             <div class="col-12 col-lg">
