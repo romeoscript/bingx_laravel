@@ -18,7 +18,7 @@
                 <p class="mbr-text mbr-white mbr-fonts-style display-7">
                     We believe that everyone should be given the opportunity to profit from the massive wealth provided by the Cryptocurrency Industry and our investors deserve an established, trusted, and accountable partner that can help them navigate digital currency investing.
                 </p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4 mb-5" href="register.html">Invest Today </a></div>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4 mb-5" href="{{route('register')}}">Invest Today </a></div>
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@
                         </h4>
                         
                         <div class="mbr-section-btn mt-3">
-                            <a class="btn btn-warning display-4 mb-2" href="login.html">Get started </a>
+                            <a class="btn btn-warning display-4 mb-2" href="{{route('login')}}">Get started </a>
                         </div>
                     </div>
                 </div>

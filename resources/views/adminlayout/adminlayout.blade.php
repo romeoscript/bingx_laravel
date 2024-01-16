@@ -10,7 +10,7 @@
 	<meta name="theme-color" content="#0173d4">
 	<meta content="" name="author" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<link rel="shortcut icon" href="">
+	<link rel="shortcut icon" href="/">
 
 	<link href="{{asset('admin/plugins/datatables/jquery.dataTables.min.css')}}" rel="stylesheet" type="text/css" />
 	<link href="{{asset('admin/plugins/datatables/buttons.bootstrap4.min.css')}}" rel="stylesheet" type="text/css" />

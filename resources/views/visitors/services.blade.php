@@ -38,7 +38,7 @@
                         <p class="mbr-text mbr-fonts-style mb-4 display-4">
                             We help people, businesses and institutions build, preserve and manage wealth so they can pursue their financial goals.nies proud, as we build a unique, global investment company.</p>
                         <div class="mbr-section-btn mt-3">
-                            <a class="btn btn-primary display-4" href="register.html">
+                            <a class="btn btn-primary display-4" href="{{route('register')}}">
                                 Learn more
                             </a>
                         </div>
@@ -74,7 +74,7 @@
                         <p class="mbr-text mbr-fonts-style mb-4 display-4">
                             Global institutions, leading hedge funds and industry innovators turn to Bingx Finance for sales, trading and market-making services.</p>
                         <div class="mbr-section-btn mt-3">
-                            <a class="btn btn-primary display-4" href="register.html">
+                            <a class="btn btn-primary display-4" href="{{route('register')}}">
                                 Learn more
                             </a>
                         </div>
@@ -99,7 +99,7 @@
                         <p class="mbr-text mbr-fonts-style mb-4 display-4">
                             We deliver active investment strategies across public and private markets and custom solutions to institutional and individual investors.</p>
                         <div class="mbr-section-btn mt-3">
-                            <a class="btn btn-primary display-4" href="register.html">
+                            <a class="btn btn-primary display-4" href="{{route('register')}}">
                                 Learn more
                             </a>
                         </div>
@@ -135,7 +135,7 @@
                         <p class="mbr-text mbr-fonts-style mb-4 display-4">
                             Find the right lending solution for you – whether you need a straightforward loan facility or have more complex requirements, with help from your Lending Specialist.</p>
                         <div class="mbr-section-btn mt-3">
-                            <a class="btn btn-primary display-4" href="register.html">
+                            <a class="btn btn-primary display-4" href="{{route('register')}}">
                                 Learn more
                             </a>
                         </div>

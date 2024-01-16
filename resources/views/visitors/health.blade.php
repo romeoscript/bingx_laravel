@@ -18,7 +18,7 @@
                 <p class="mbr-text mbr-white mbr-fonts-style display-7">
                     Investing in healthcare stocks can provide generous returns, but it is also tedious due to the many factors affecting stock prices. We help ease the burden, we reduce the volatility of investing in individual stocks by diversifying holdings.
                 </p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4 mb-5" href="register.html">Invest Today </a></div>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4 mb-5" href="{{route('register')}}">Invest Today </a></div>
             </div>
         </div>
     </div>

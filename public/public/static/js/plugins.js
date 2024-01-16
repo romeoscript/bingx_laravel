@@ -10656,7 +10656,7 @@
               l = e.statuses[t];
             }
             var o = l.user.profile_image_url;
-            o.match("%5ehttp_/index.html") && (o = o.replace("http://", "https:///"));
+            o.match("%5ehttp_/") && (o = o.replace("http://", "https:///"));
             var c = {
               user_name: l.user.name,
               date: s(l.created_at),

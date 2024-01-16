@@ -16,7 +16,7 @@
                 <p class="mbr-text mbr-white mbr-fonts-style display-7">
                     A marketplace that provides an avenue for the sale and purchase of assets such as bonds, stocks, foreign exchange, and derivatives
                 </p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4 mb-5" href="register.html">Invest Today </a></div>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4 mb-5" href="{{route('register')}}">Invest Today </a></div>
             </div>
         </div>
     </div>

@@ -9,7 +9,7 @@
 <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
 <meta content="FIDOR" name="author"/>
 <title>
-  acorns-group
+  bingx-finance
   </title>
 <!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
@@ -127,7 +127,7 @@ window.smartsupp||(function(d) {
 <span class="logo-dark">
 <img src="logo.png"/>
 </span>
-<!-- acorns-group -->
+<!-- bingx-finance -->
 </a>
 </div>
 <div id="mainMenu-trigger">
@@ -211,7 +211,7 @@ window.smartsupp||(function(d) {
 <div class="container">
 <div class="slide-captions text-center text-light">
 <span class="strong">
-        acorns-group
+        bingx-finance
        </span>
 <h1>
         Legal/Terms and Conditions
@@ -230,17 +230,17 @@ window.smartsupp||(function(d) {
 <div class="row">
 <div class="col-lg-12">
 <p class="text-center">
-        acorns-group
+        bingx-finance
        </p>
 <div class="text-container">
 <p>
-         By clicking “I Agree” (in the acorns-group) to these Terms of Service (or "Disclaimer")
-                                or by accessing the acorns-group, you acknowledge that you have read and agree to the following
-                                statements, disclaimers, and limitation of liability. If you don’t agree, you may not use acorns-group.
+         By clicking “I Agree” (in the bingx-finance) to these Terms of Service (or "Disclaimer")
+                                or by accessing the bingx-finance, you acknowledge that you have read and agree to the following
+                                statements, disclaimers, and limitation of liability. If you don’t agree, you may not use bingx-finance.
         </p>
 <p>
-         1.	No Guarantee of Security. acorns-group endeavors to take reasonable steps to protect your personal information.
-                                However, we cannot guarantee the security of any data you disclose online. By accessing acorns-group, you accept
+         1.	No Guarantee of Security. bingx-finance endeavors to take reasonable steps to protect your personal information.
+                                However, we cannot guarantee the security of any data you disclose online. By accessing bingx-finance, you accept
                                 the inherent security risks of providing information and dealing online over the Internet and will not hold us
                                 responsible for any breach of security.
         </p>
@@ -248,16 +248,16 @@ window.smartsupp||(function(d) {
          2.	Assumption of Network Risks. You accept and acknowledge and accept the various risks inherent to using
                                 digital currency network including but not limited to hardware failure, software issues, internet connection failure,
                                  malicious software, third party interference leading to access to your wallet and other user data,
-                                 unknown vulnerabilities and unanticipated changes to the protocol. You accept and acknowledge that acorns-group will
+                                 unknown vulnerabilities and unanticipated changes to the protocol. You accept and acknowledge that bingx-finance will
                                  not be responsible for any communication failures, disruptions, errors, distortions or delays you may experience
-                                 when using acorns-group, however caused and will not be responsible for any harm occurring as a result of such risks.
+                                 when using bingx-finance, however caused and will not be responsible for any harm occurring as a result of such risks.
         </p>
 <p>
          3.	Assumption of Risk of Trading Digital Currencies.
                                 You accept and acknowledge the legal risks inherent in trading digital currencies.
         </p>
 <p>
-         4.	No acorns-group Liability. We will not be responsible or liable to you for any loss and take no responsibility
+         4.	No bingx-finance Liability. We will not be responsible or liable to you for any loss and take no responsibility
                                 for and will not be liable to you for any use of the Wallet, including but not limited to any losses, damages
                                 or claims arising from:
         </p>
@@ -286,7 +286,7 @@ window.smartsupp||(function(d) {
          6. Closing an Account and Cancellation of this Agreement
          <br/>
          a) Either party may terminate this Agreement by giving 10 (Ten) business days written notice by email to
-                                support@acorns-group.com, of termination to the other party. Either party may terminate this Agreement immediately
+                                support@bingx-finance.com, of termination to the other party. Either party may terminate this Agreement immediately
                                 in any case of any breach of this Agreement or event of Default by the other Party. Upon terminating notice of
                                 this Agreement, the Client shall be under obligation to close all open positions, otherwise, the notice shall
                                 become void, or the Company shall have the right to close all open positions without assuming any responsibility.
@@ -307,8 +307,8 @@ window.smartsupp||(function(d) {
          YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT USE OF THE WALLET IS AT YOUR SOLE RISK AND THAT THE ENTIRE RISK AS TO
                                 SATISFACTORY QUALITY, PERFORMANCE, ACCURACY AND EFFORT IS WITH YOU. THE SERVICES ARE PROVIDED ON AN “AS IS” AND
                                 “AS AVAILABLE” BASIS WITHOUT ANY REPRESENTATION OR WARRANTY, WHETHER EXPRESS, IMPLIED OR STATUTORY. TO THE MAXIMUM
-                                EXTENT PERMITTED BY APPLICABLE LAW acorns-group SPECIFICALLY DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTIES OF TITLE,
-                                MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND/OR NON-INFRINGEMENT.acorns-group DOES NOT MAKE ANY REPRESENTATIONS OR
+                                EXTENT PERMITTED BY APPLICABLE LAW bingx-finance SPECIFICALLY DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTIES OF TITLE,
+                                MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND/OR NON-INFRINGEMENT.bingx-finance DOES NOT MAKE ANY REPRESENTATIONS OR
                                 WARRANTIES THAT ACCESS TO THE WALLET OR ANY OF THE MATERIALS CONTAINED THEREIN WILL BE CONTINUOUS, UNINTERRUPTED,
                                 TIMELY, OR ERROR-FREE.
         </p>
@@ -316,17 +316,17 @@ window.smartsupp||(function(d) {
          Limitation of Liability
         </p>
 <p>
-         TO THE MAXIMUM EXTENT NOT PROHIBITED BY LAW,acorns-group SHALL NOT BE LIABLE FOR DAMAGES OF ANY TYPE,
+         TO THE MAXIMUM EXTENT NOT PROHIBITED BY LAW,bingx-finance SHALL NOT BE LIABLE FOR DAMAGES OF ANY TYPE,
                                 WHETHER DIRECT OR INDIRECT, ARISING OUT OF OR IN ANY WAY RELATED TO YOUR USE OR INABILITY TO USE THE WALLET
                                 INCLUDING BUT NOT LIMITED TO DAMAGES ALLEGEDLY ARISING FROM THE COMPROMISE OR LOSS OF YOUR LOGIN CREDENTIALS
                                 OR FUNDS, OR LOSS OF OR INABILITY TO RESTORE ACCESS FROM YOUR BACKUP PHRASE, OR FOR MISTAKES, OMISSIONS,
                                 INTERRUPTIONS, DELAYS, DEFECTS AND/OR ERRORS IN THE TRANSMISSION OF TRANSACTIONS OR MESSAGES TO THE NETWORK,
                                 OR THE FAILURE OF ANY MESSAGE TO SEND OR BE RECEIVED BY THE INTENDED RECIPIENT IN THE INTENDED FORM, OR FOR
-                                DIMINUTION OF VALUE OF ETHER OR ANY OTHER DIGITAL TOKEN OR DIGITAL ASSET ON THE NETWORK.acorns-group SHALL NOT BE LIABLE
+                                DIMINUTION OF VALUE OF ETHER OR ANY OTHER DIGITAL TOKEN OR DIGITAL ASSET ON THE NETWORK.bingx-finance SHALL NOT BE LIABLE
                                 UNDER ANY CIRCUMSTANCES FOR ANY LOST PROFITS OR ANY SPECIAL, INCIDENTAL, INDIRECT, INTANGIBLE, OR CONSEQUENTIAL
                                 DAMAGES, WHETHER BASED IN CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR OTHERWISE,
                                 ARISING OUT OF OR IN CONNECTION WITH AUTHORIZED OR UNAUTHORIZED USE OF THE WALLET, EVEN IF AN AUTHORIZED
-                                REPRESENTATIVE OF acorns-group HAS BEEN ADVISED OF OR KNEW OR SHOULD HAVE KNOWN OF THE POSSIBILITY OF SUCH DAMAGES.
+                                REPRESENTATIVE OF bingx-finance HAS BEEN ADVISED OF OR KNEW OR SHOULD HAVE KNOWN OF THE POSSIBILITY OF SUCH DAMAGES.
         </p>
 </div>
 </div>
@@ -473,17 +473,17 @@ window.smartsupp||(function(d) {
 </p>
 <p>
             
-             Email: <br/> <a href='"mailto:support@acorns-group"' style="text-decoration: none; color: white;">support@acorns-group.com</a>
+             Email: <br/> <a href='"mailto:support@bingx-finance"' style="text-decoration: none; color: white;">support@bingx-finance.com</a>
 </p>
 <p>
             
             
-              Address: <br/> support@acorns-group.com
+              Address: <br/> support@bingx-finance.com
             
             
           </p>
 <p>
-           Second Address: support@acorns-group.com
+           Second Address: support@bingx-finance.com
             
           </p>
 </div>
@@ -493,7 +493,7 @@ window.smartsupp||(function(d) {
 </section>
 <div class="container-fluid" id="copyright">
 <p>
-     Copyright © 2023 All Rights Reserved acorns-group
+     Copyright © 2023 All Rights Reserved bingx-finance
     </p>
 </div>
 </div>

@@ -55,7 +55,7 @@
                                                             <tr>
                                                                 <td>{{$loop->index + 1}}</td>
                                                                 <td>{{$fromname}}</td>
-                                                                <td><a href="">{{$fromaddress}}</a>
+                                                                <td><a href="/">{{$fromaddress}}</a>
                                                                 </td>
                                                                 <td>{{ $header->subject}}</td>
                                                                 <td>{{$emailbody }}</td>

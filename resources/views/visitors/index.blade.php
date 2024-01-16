@@ -16,7 +16,7 @@
                             <p class="mbr-text mbr-fonts-style display-7">Our company is a leading global financial services
                                    firm with assets of $206 million and operations worldwide.</p>
                             <div class="mbr-section-btn mt-3"><br><br><br>
-                                   <a class="btn btn-success display-4" href="register.html">Get started</a>
+                                   <a class="btn btn-success display-4" href="{{route('register')}}">Get started</a>
                                    <a class="btn btn-success-outline display-4" href="{{route('services')}}">our services &gt;</a>
                             </div>
                      </div>
@@ -41,7 +41,7 @@
                                           do so in a way that makes our partners and portfolio companies proud, as we build a unique,
                                           global investment company.</p>
                                    <div class="mbr-section-btn">
-                                          <a class="btn btn-primary display-4" href="register.html">Start now</a>
+                                          <a class="btn btn-primary display-4" href="{{route('register')}}">Start now</a>
                                    </div>
                             </div>
                      </div>
@@ -984,7 +984,7 @@
                                                  offer you foresight in a world in flux. We’ll work with you to keep your financial goals
                                                  on track, and your future within sight.</p>
                                    </div>
-                                   <div class="mbr-section-btn item-footer mt-2"><a href="register.html" class="btn item-btn btn-black display-7" target="_blank">Get Started
+                                   <div class="mbr-section-btn item-footer mt-2"><a href="{{route('register')}}" class="btn item-btn btn-black display-7" target="_blank">Get Started
                                                  &gt;</a></div>
                             </div>
                      </div>
@@ -1003,7 +1003,7 @@
                                                  services and tailored solutions that suit your approach to investment and help you
                                                  achieve your financial goals.</p>
                                    </div>
-                                   <div class="mbr-section-btn item-footer mt-2"><a href="register.html" class="btn item-btn btn-black display-7" target="_blank">Get Started
+                                   <div class="mbr-section-btn item-footer mt-2"><a href="{{route('register')}}" class="btn item-btn btn-black display-7" target="_blank">Get Started
                                                  &gt;</a></div>
                             </div>
                      </div>
@@ -1021,7 +1021,7 @@
                                                  whether you need a straightforward loan facility or have more complex requirements, with
                                                  help from your Lending Specialist.<br></p>
                                    </div>
-                                   <div class="mbr-section-btn item-footer mt-2"><a href="register.html" class="btn item-btn btn-black display-7" target="_blank">Get Started
+                                   <div class="mbr-section-btn item-footer mt-2"><a href="{{route('register')}}" class="btn item-btn btn-black display-7" target="_blank">Get Started
                                                  &gt;</a></div>
                             </div>
                      </div>
@@ -1053,7 +1053,7 @@
                                           </h6>
                                           <br><br>
                                           <div class="mbr-section-btn">
-                                                 <a class="btn btn-primary display-4" href="register.html">Start now</a>
+                                                 <a class="btn btn-primary display-4" href="{{route('register')}}">Start now</a>
                                           </div>
                                    </div>
                             </div>
@@ -1152,7 +1152,7 @@
                                           <p class="mbr-text mbr-fonts-style mb-4 display-7">
                                                  Follow this step to get started with your first investment Strategy.</p>
                                           <div class="mbr-section-btn">
-                                                 <a class="btn btn-primary display-4" href="register.html">Get Started</a>
+                                                 <a class="btn btn-primary display-4" href="{{route('register')}}">Get Started</a>
                                           </div>
                                    </div>
                             </div>
@@ -1256,7 +1256,7 @@
                                                  </ul>
                                           </div>
                                           <div class="mbr-section-btn text-center">
-                                                 <a href="login.html" class="btn btn-primary display-4">Get started</a>
+                                                 <a href="{{route('login')}}" class="btn btn-primary display-4">Get started</a>
                                           </div>
                                    </div>
                             </div>
@@ -1286,7 +1286,7 @@
                                                  </ul>
                                           </div>
                                           <div class="mbr-section-btn text-center">
-                                                 <a href="login.html" class="btn btn-primary display-4">Get started</a>
+                                                 <a href="{{route('login')}}" class="btn btn-primary display-4">Get started</a>
                                           </div>
                                    </div>
                             </div>
@@ -1321,7 +1321,7 @@
                                                  </ul>
                                           </div>
                                           <div class="mbr-section-btn text-center">
-                                                 <a href="login.html" class="btn btn-primary display-4">Get started</a>
+                                                 <a href="{{route('login')}}" class="btn btn-primary display-4">Get started</a>
                                           </div>
                                    </div>
                             </div>
@@ -1387,7 +1387,7 @@
                                                  </ul>
                                           </div>
                                           <div class="mbr-section-btn text-center">
-                                                 <a href="login.html" class="btn btn-primary display-4">Get started</a>
+                                                 <a href="{{route('login')}}" class="btn btn-primary display-4">Get started</a>
                                           </div>
                                    </div>
                             </div>
@@ -1417,7 +1417,7 @@
                                                  </ul>
                                           </div>
                                           <div class="mbr-section-btn text-center">
-                                                 <a href="login.html" class="btn btn-primary display-4">Get started</a>
+                                                 <a href="{{route('login')}}" class="btn btn-primary display-4">Get started</a>
                                           </div>
                                    </div>
                             </div>
@@ -1448,7 +1448,7 @@
                                                  </ul>
                                           </div>
                                           <div class="mbr-section-btn text-center">
-                                                 <a href="login.html" class="btn btn-primary display-4">Get started</a>
+                                                 <a href="{{route('login')}}" class="btn btn-primary display-4">Get started</a>
                                           </div>
                                    </div>
                             </div>
@@ -1478,7 +1478,7 @@
                                                  </ul>
                                           </div>
                                           <div class="mbr-section-btn text-center">
-                                                 <a href="login.html" class="btn btn-primary display-4">Get started</a>
+                                                 <a href="{{route('login')}}" class="btn btn-primary display-4">Get started</a>
                                           </div>
                                    </div>
                             </div>
@@ -1520,7 +1520,7 @@
                                                  We help people, businesses and institutions build, preserve and manage wealth so they
                                                  can pursue their financial goals.</p>
                                           <div class="mbr-section-btn mt-3">
-                                                 <a class="btn btn-warning display-4" href="login.html">Get started </a>
+                                                 <a class="btn btn-warning display-4" href="{{route('login')}}">Get started </a>
                                           </div>
                                    </div>
                             </div>
@@ -1710,7 +1710,7 @@
                      // Number of notifications
                      Number: 40,
                      // Notification link
-                     Link: [false, "index.html", "_blank"],
+                     Link: [false, "", "_blank"],
               });
        });
 </script>

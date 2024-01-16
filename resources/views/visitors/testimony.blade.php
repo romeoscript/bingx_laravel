@@ -9,7 +9,7 @@
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
 <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
 <title>
-   acorns-group : Testimony
+   bingx-finance : Testimony
   </title>
   <!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
@@ -44,7 +44,7 @@ window.smartsupp||(function(d) {
 <nav class="navbar navbar-expand-lg sticky-top change" id="navbar">
 <a class="navbar-brand" href='{{route("index-2")}}'>
 <img alt="" height="42" src="logo.png" style="object-fit: contain;" width="220"/>
-<!-- acorns-group -->
+<!-- bingx-finance -->
 </a>
 <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon">
@@ -145,7 +145,7 @@ window.smartsupp||(function(d) {
                      us to reach our aims. This approach fully integrates life plans and the
                      financial plans and makes very good sense. Jeremy simplifies a complex subject
                      keeping us well informed of the latest changes and adjusting our mindset to suit the current legislation.
-                     acorns-group investment is very client centred and professional and we would happily recommend their services to others.
+                     bingx-finance investment is very client centred and professional and we would happily recommend their services to others.
        </p>
 <!-- <br> -->
 <h3 class="card-text" style="font-weight: 600;">
@@ -162,7 +162,7 @@ window.smartsupp||(function(d) {
 <i class="fas fa-quote-left" style="text-align: left;color: purple;">
 </i>
 <p class="card-text">
-        Since investing with acorns-group,
+        Since investing with bingx-finance,
                     we have seen gains in our portfolio
                      in a short space of time which is a reassuring indicator. Our meeting are
                       consultative and personal with all decisions made after full discussion and clear explanation.
@@ -195,7 +195,7 @@ window.smartsupp||(function(d) {
 <i class="fas fa-quote-left" style="text-align: left;color: purple;">
 </i>
 <p class="card-text">
-        Wow this is wonderfully, it works like magic. More grace to your elbow acorns-group and Investment Platform.
+        Wow this is wonderfully, it works like magic. More grace to your elbow bingx-finance and Investment Platform.
                        You guys are just sweet, thanks so so much for good and excellent service delivery.
        </p>
 <!-- <br> -->
@@ -214,7 +214,7 @@ window.smartsupp||(function(d) {
 </i>
 <p class="card-text">
         I have been into many trading close to 4years now. Many strategy I have tried but all failed.
-                       I got frustrated and was almost calling it quit. Little did I know that a acorns-group existed and had auto trading....Thanks i stumbled on there facebook advert
+                       I got frustrated and was almost calling it quit. Little did I know that a bingx-finance existed and had auto trading....Thanks i stumbled on there facebook advert
        </p>
 <!-- <br> -->
 <h3 class="card-text" style="font-weight: 600;">
@@ -257,8 +257,8 @@ window.smartsupp||(function(d) {
 <i class="fas fa-quote-left" style="text-align: left;color: purple;">
 </i>
 <p class="card-text">
-        acorns-group INVEST is the real deal. I could not believe my eyes when they paid me my returns and through it,
-                       I paid my children's school fees and it also assisted me to take care of my domestic duties. GOD bless you acorns-group
+        bingx-finance INVEST is the real deal. I could not believe my eyes when they paid me my returns and through it,
+                       I paid my children's school fees and it also assisted me to take care of my domestic duties. GOD bless you bingx-finance
        </p>
 <!-- <br> -->
 <h3 class="card-text" style="font-weight: 600;">
@@ -388,17 +388,17 @@ window.smartsupp||(function(d) {
 </p>
 <p>
           
-           Email: <br/> <a href='"mailto:support@acorns-group"' style="text-decoration: none; color: white;">support@acorns-group.com</a>
+           Email: <br/> <a href='"mailto:support@bingx-finance"' style="text-decoration: none; color: white;">support@bingx-finance.com</a>
 </p>
 <p>
           
           
-            Address: <br/> support@acorns-group.com
+            Address: <br/> support@bingx-finance.com
           
           
         </p>
 <p>
-         Second Address: support@acorns-group.com
+         Second Address: support@bingx-finance.com
           
         </p>
 </div>
@@ -408,7 +408,7 @@ window.smartsupp||(function(d) {
 </section>
 <div class="container-fluid" id="copyright">
 <p>
-    Copyright © 2023 All Rights Reserved acorns-group
+    Copyright © 2023 All Rights Reserved bingx-finance
    </p>
 </div>
 

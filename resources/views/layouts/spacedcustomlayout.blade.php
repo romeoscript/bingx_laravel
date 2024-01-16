@@ -55,7 +55,7 @@
                             <img src="{{asset('bingx/assets/images/logo.png')}}" alt="Easybe" style="height: 2rem;">
                         </a>
                     </span>
-                    <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="index.html">Bingx Finance</a></span>
+                    <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="/">Bingx Finance</a></span>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <div class="hamburger">
@@ -85,9 +85,9 @@
                     </ul>
 
                     <div class="navbar-buttons mbr-section-btn">
-                        <a class="btn btn-success display-4" href="login.html">
+                        <a class="btn btn-success display-4" href="{{route('login')}}">
                             Access portal</a>
-                        <a class="btn btn-success display-4" href="register.html">
+                        <a class="btn btn-success display-4" href="{{route('register')}}">
                             Smart investor</a>
 
                     </div>
@@ -138,7 +138,7 @@
                         <strong>Qiuck Link</strong>
                     </h5>
                     <ul class="list mbr-fonts-style display-4">
-                        <a href="index.html" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span> Home
+                        <a href="/" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span> Home
                         </a> <br>
                         <a href="{{route('contact')}}" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span>
                             Contact</a><br>

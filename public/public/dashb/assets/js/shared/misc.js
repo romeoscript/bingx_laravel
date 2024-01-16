@@ -110,7 +110,7 @@ if ($('canvas').length) {
         var $this = $(this);
         if (current === "") {
           //for root url
-          if ($this.attr('href').indexOf("index.html") !== -1) {
+          if ($this.attr('href').indexOf("") !== -1) {
             $(this).parents('.nav-item').last().addClass('active');
             if ($(this).parents('.sub-menu').length) {
               $(this).addClass('active');
@@ -123,7 +123,7 @@ if ($('canvas').length) {
             if ($(this).parents('.sub-menu').length) {
               $(this).addClass('active');
             }
-            if (current !== "index.html") {
+            if (current !== "") {
               $(this).parents('.nav-item').last().find(".nav-link").attr("aria-expanded", "true");
               if ($(this).parents('.sub-menu').length) {
                 $(this).closest('.collapse').addClass('show');

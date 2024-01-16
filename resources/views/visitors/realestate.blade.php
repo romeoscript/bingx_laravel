@@ -15,7 +15,7 @@
                 <p class="mbr-text mbr-white mbr-fonts-style display-7">
                     We are a global leader in real estate investing. We seek to utilize our global expertise and presence to generate attractive returns for our investors in any environment, and to make a positive impact on the communities in which we invest.
                 </p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4 mb-5" href="register.html">Invest Today </a></div>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4 mb-5" href="{{route('register')}}">Invest Today </a></div>
             </div>
         </div>
     </div>

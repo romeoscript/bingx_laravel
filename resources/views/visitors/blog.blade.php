@@ -9,7 +9,7 @@
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
 <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
 <title>
-   acorns-group : Blog
+   bingx-finance : Blog
   </title>
   <!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
@@ -43,7 +43,7 @@ window.smartsupp||(function(d) {
 <nav class="navbar navbar-expand-lg sticky-top change" id="navbar">
 <a class="navbar-brand" href='{{route("index-2")}}'>
 <img alt="" height="42" src="logo.png" style="object-fit: contain;" width="220"/>
-<!-- acorns-group -->
+<!-- bingx-finance -->
 </a>
 <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon">
@@ -253,17 +253,17 @@ window.smartsupp||(function(d) {
 </p>
 <p>
           
-           Email: <br/> <a href='"mailto:support@acorns-group"' style="text-decoration: none; color: white;">support@acorns-group.com</a>
+           Email: <br/> <a href='"mailto:support@bingx-finance"' style="text-decoration: none; color: white;">support@bingx-finance.com</a>
 </p>
 <p>
           
           
-            Address: <br/> support@acorns-group.com
+            Address: <br/> support@bingx-finance.com
           
           
         </p>
 <p>
-         Second Address: support@acorns-group.com
+         Second Address: support@bingx-finance.com
           
         </p>
 </div>
@@ -273,7 +273,7 @@ window.smartsupp||(function(d) {
 </section>
 <div class="container-fluid" id="copyright">
 <p>
-    Copyright © 2023 All Rights Reserved acorns-group
+    Copyright © 2023 All Rights Reserved bingx-finance
    </p>
 </div>
 

@@ -19,7 +19,7 @@
                 <p class="mbr-text mbr-white mbr-fonts-style display-7">
                     Technological innovation is progressing faster than ever and technology itself is becoming more integral to the private and public spheres. In terms of running a successful business, you’ll need to be aware of developments within all areas of tech; from artificial intelligence to 3D printing, renewable energy, and remote working potential.
                 </p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4 mb-5" href="register.html">Invest Today </a></div>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4 mb-5" href="{{route('register')}}">Invest Today </a></div>
             </div>
         </div>
     </div>
