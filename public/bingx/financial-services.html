@@ -58,14 +58,14 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-4" href="about.html">
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-4" href="{{route('about')}}">
                             Who we are</a></li>
-                            <li class="nav-item dropdown"><a class="nav-link link text-black dropdown-toggle display-4" href="services.html" data-toggle="dropdown-submenu" aria-expanded="false">Sector</a><div class="dropdown-menu"><a class="text-black dropdown-item display-4" href="real-estate.html">Real Estate</a><a class="text-black dropdown-item display-4" href="financial-services.html" aria-expanded="false">Financial Services</a><a class="text-black dropdown-item display-4" href="cryptocurrency.html" aria-expanded="false">cryptocurrency</a><a class="text-black dropdown-item display-4" href="health-care.html" aria-expanded="false">Health Care</a><a class="text-black dropdown-item display-4" href="information-technology.html" aria-expanded="false">Infomation technology</a></div></li>
-                             <li class="nav-item"><a class="nav-link link text-black display-4" href="services.html">
+                            <li class="nav-item dropdown"><a class="nav-link link text-black dropdown-toggle display-4" href="{{route('services')}}" data-toggle="dropdown-submenu" aria-expanded="false">Sector</a><div class="dropdown-menu"><a class="text-black dropdown-item display-4" href="{{route('realestate')}}">Real Estate</a><a class="text-black dropdown-item display-4" href="{{route('financialservices')}}" aria-expanded="false">Financial Services</a><a class="text-black dropdown-item display-4" href="{{route('crypto')}}" aria-expanded="false">cryptocurrency</a><a class="text-black dropdown-item display-4" href="{{route('health')}}" aria-expanded="false">Health Care</a><a class="text-black dropdown-item display-4" href="{{route('ict')}}" aria-expanded="false">Infomation technology</a></div></li>
+                             <li class="nav-item"><a class="nav-link link text-black display-4" href="{{route('services')}}">
                             Services</a></li>
-                            <li class="nav-item"><a class="nav-link link text-black display-4" href="contact.html">Contact</a>
+                            <li class="nav-item"><a class="nav-link link text-black display-4" href="{{route('contact')}}">Contact</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link link text-black display-4" href="investing.html">Investing</a>
+                            <li class="nav-item"><a class="nav-link link text-black display-4" href="{{route('invest')}}">Investing</a>
                             </li>
                           
                   
@@ -126,7 +126,7 @@
                             In the financial markets, stock prices, share prices, bond prices, currency rates, interest rates and dividends go up and down, creating risk. This risk is curtailed when you invest with Bingx Finance and you can have more wealth and time for the things that matter.
                         </p>
                         <div class="mbr-section-btn mt-3">
-                            <a class="btn btn-primary display-4" href="services.html">
+                            <a class="btn btn-primary display-4" href="{{route('services')}}">
                                 Learn more
                             </a>
                         </div>
@@ -176,9 +176,9 @@
             </h5>
             <ul class="list mbr-fonts-style display-4">
             <a href="index.html" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span>  Home </a> <br>
-                <a href="contact.html" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span>  Contact</a><br>         
-                <a href="about.html" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span> About Us</a><br>
-                <a href="services.html" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span> services</a><br>
+                <a href="{{route('contact')}}" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span>  Contact</a><br>         
+                <a href="{{route('about')}}" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span> About Us</a><br>
+                <a href="{{route('services')}}" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span> services</a><br>
                 
             </ul>
         </div>

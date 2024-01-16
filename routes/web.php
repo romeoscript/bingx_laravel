@@ -517,8 +517,8 @@ Route::get ('/cryptoplan', [App\Http\Controllers\Userdashcontroller::class, 'cry
 
 Route::get('/about', [App\Http\Controllers\VisitorController::class, 'about'])->name('about');
 Route::get('/blog', [App\Http\Controllers\VisitorController::class, 'blog'])->name('blog');
-Route::get('/brochure', [App\Http\Controllers\VisitorController::class, 'brochure'])->name('brochure');
-Route::get('/companyvideo', [App\Http\Controllers\VisitorController::class, 'companyvideo'])->name('companyvideo');
+Route::get('/services', [App\Http\Controllers\VisitorController::class, 'service'])->name('services');
+Route::get('/health', [App\Http\Controllers\VisitorController::class, 'health'])->name('health');
 Route::get('/contact', [App\Http\Controllers\VisitorController::class, 'contact'])->name('contact');
 Route::get('/faq', [App\Http\Controllers\VisitorController::class, 'faq'])->name('faq');
 Route::get('/index', [App\Http\Controllers\VisitorController::class, 'index'])->name('index');
@@ -531,8 +531,11 @@ Route::get('/about', [App\Http\Controllers\VisitorController::class, 'about'])->
 Route::get('/blog', [App\Http\Controllers\VisitorController::class, 'blog'])->name('blog');
 Route::get('/contact', [App\Http\Controllers\VisitorController::class, 'contact'])->name('contact');
 Route::get('/faq', [App\Http\Controllers\VisitorController::class, 'faq'])->name('faq');
-Route::get('/index-2', [App\Http\Controllers\VisitorController::class, 'index-2'])->name('index-2');
+Route::get('/ict', [App\Http\Controllers\VisitorController::class, 'ict'])->name('ict');
 Route::get('/index', [App\Http\Controllers\VisitorController::class, 'index'])->name('index');
 Route::get('/invest', [App\Http\Controllers\VisitorController::class, 'invest'])->name('invest');
 Route::get('/terms', [App\Http\Controllers\VisitorController::class, 'terms'])->name('terms');
 Route::get('/testimony', [App\Http\Controllers\VisitorController::class, 'testimony'])->name('testimony');
+Route::get('/financialservices', [App\Http\Controllers\VisitorController::class, 'financialservices'])->name('financialservices');
+Route::get('/realestate', [App\Http\Controllers\VisitorController::class, 'realestate'])->name('realestate');
+Route::get('/crypto', [App\Http\Controllers\VisitorController::class, 'crypto'])->name('crypto');

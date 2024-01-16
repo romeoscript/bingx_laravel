@@ -9,7 +9,6 @@
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1669/1669668.png" type="image/x-icon">
     <title>Bingx Finance | Invest Today</title>
 
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="Mobirise v5.3.4, mobirise.com">
@@ -18,20 +17,20 @@
     <meta name="description" content="">
 
 
-    <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-    <link rel="stylesheet" href="assets/tether/tether.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="assets/dropdown/css/style.css">
-    <link rel="stylesheet" href="assets/socicon/css/styles.css">
-    <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="stylesheet" href="{{asset('bingx/assets/web/assets/mobirise-icons2/mobirise2.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/tether/tether.min.css')}}">
+    <link rel="stylesheet" href="{{asset('bingx/assets/bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('bingx/assets/bootstrap/css/bootstrap-grid.min.css')}}">
+    <link rel="stylesheet" href="{{asset('bingx/assets/bootstrap/css/bootstrap-reboot.min.css')}}">
+    <link rel="stylesheet" href="{{asset('bingx/assets/dropdown/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('bingx/assets/socicon/css/styles.css')}}">
+    <link rel="stylesheet" href="{{asset('bingx/assets/theme/css/style.css')}}">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&amp;display=swap">
     </noscript>
-    <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
-    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <link rel="preload" as="style" href="{{asset('bingx/assets/mobirise/css/mbr-additional.css')}}">
+    <link rel="stylesheet" href="{{asset('bingx/assets/mobirise/css/mbr-additional.css')}}" type="text/css">
     <link href="https://monixlimited.biz/home/home/content/dist/animate.min.css" rel="stylesheet" />
     <link href="https://monixlimited.biz/home/home/content/dist/fake-notification-min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" />
@@ -52,8 +51,8 @@
             <div class="container-fluid">
                 <div class="navbar-brand">
                     <span class="navbar-logo">
-                        <a href="index.html">
-                            <img src="assets/images/logo.png" alt="Easybe style=" height: 2rem;">
+                        <a href="/">
+                            <img src="{{asset('bingx/assets/images/logo.png')}}" alt="Easybe" style="height: 2rem;">
                         </a>
                     </span>
                     <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="index.html">Bingx Finance</a></span>
@@ -68,17 +67,17 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-                        <li class="nav-item"><a class="nav-link link text-black display-4" href="about.html">
+                        <li class="nav-item"><a class="nav-link link text-black display-4" href="{{route('about')}}">
                                 Who we are</a></li>
-                        <li class="nav-item dropdown"><a class="nav-link link text-black dropdown-toggle display-4" href="services.html" data-toggle="dropdown-submenu" aria-expanded="false">Sector</a>
-                            <div class="dropdown-menu"><a class="text-black dropdown-item display-4" href="real-estate.html">Real Estate</a><a class="text-black dropdown-item display-4" href="financial-services.html" aria-expanded="false">Financial Services</a><a class="text-black dropdown-item display-4" href="cryptocurrency.html" aria-expanded="false">cryptocurrency</a><a class="text-black dropdown-item display-4" href="health-care.html" aria-expanded="false">Health Care</a><a class="text-black dropdown-item display-4" href="information-technology.html" aria-expanded="false">Infomation technology</a>
+                        <li class="nav-item dropdown"><a class="nav-link link text-black dropdown-toggle display-4" href="{{route('services')}}" data-toggle="dropdown-submenu" aria-expanded="false">Sector</a>
+                            <div class="dropdown-menu"><a class="text-black dropdown-item display-4" href="{{route('realestate')}}">Real Estate</a><a class="text-black dropdown-item display-4" href="{{route('financialservices')}}" aria-expanded="false">Financial Services</a><a class="text-black dropdown-item display-4" href="{{route('crypto')}}" aria-expanded="false">cryptocurrency</a><a class="text-black dropdown-item display-4" href="{{route('health')}}" aria-expanded="false">Health Care</a><a class="text-black dropdown-item display-4" href="{{route('ict')}}" aria-expanded="false">Infomation technology</a>
                             </div>
                         </li>
-                        <li class="nav-item"><a class="nav-link link text-black display-4" href="services.html">
+                        <li class="nav-item"><a class="nav-link link text-black display-4" href="{{route('services')}}">
                                 Services</a></li>
-                        <li class="nav-item"><a class="nav-link link text-black display-4" href="contact.html">Contact</a>
+                        <li class="nav-item"><a class="nav-link link text-black display-4" href="{{route('contact')}}">Contact</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link link text-black display-4" href="investing.html">Investing</a>
+                        <li class="nav-item"><a class="nav-link link text-black display-4" href="{{route('invest')}}">Investing</a>
                         </li>
 
 
@@ -141,11 +140,11 @@
                     <ul class="list mbr-fonts-style display-4">
                         <a href="index.html" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span> Home
                         </a> <br>
-                        <a href="contact.html" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span>
+                        <a href="{{route('contact')}}" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span>
                             Contact</a><br>
-                        <a href="about.html" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span> About
+                        <a href="{{route('about')}}" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span> About
                             Us</a><br>
-                        <a href="services.html" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span>
+                        <a href="{{route('services')}}" class="mbr-text item-wrap"><span style="color: steelblue;">&gt;</span>
                             services</a><br>
 
                     </ul>
@@ -190,163 +189,21 @@
         <p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/c" style="color:#aaa;">The</a> web page was built with Mobirise</p>
     </section>
 
-    <script src="assets/web/assets/jquery/jquery.min.js"></script>
-    <script src="assets/popper/popper.min.js"></script>
-    <script src="assets/tether/tether.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/smoothscroll/smooth-scroll.js"></script>
-    <script src="assets/dropdown/js/nav-dropdown.js"></script>
-    <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-    <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-    <script src="assets/parallax/jarallax.min.js"></script>
-    <script src="assets/theme/js/script.js"></script>
+    <script src="{{asset('bingx/assets/web/assets/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset('bingx/assets/popper/popper.min.js')}}"></script>
+    <script src="{{asset('bingx/assets/tether/tether.min.js')}}"></script>
+    <script src="{{asset('bingx/assets/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('bingx/assets/smoothscroll/smooth-scroll.js')}}"></script>
+    <script src="{{asset('bingx/assets/dropdown/js/nav-dropdown.js')}}"></script>
+    <script src="{{asset('bingx/assets/dropdown/js/navbar-dropdown.js')}}"></script>
+    <script src="{{asset('bingx/assets/touchswipe/jquery.touch-swipe.min.js')}}"></script>
+    <script src="{{asset('bingx/assets/parallax/jarallax.min.js')}}"></script>
+    <script src="{{asset('bingx/assets/theme/js/script.js')}}"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="https://monixlimited.biz/home/home/content/dist/jquery.fake-notification.min.js"></script>
 
-    <script>
-        $(document).ready(function() {
-            $(".carousel-client").bxSlider({
-                auto: true,
-                slideWidth: 234,
-                minSlides: 2,
-                maxSlides: 5,
-                controls: false,
-            });
-            $("#notification-1").Notification({
-                // Notification varibles
-                Varible1: [
-                    "Dirk",
-                    "Johnny",
-                    "Watkin ",
-                    "Alejandro",
-                    "Vina",
-                    "Tony",
-                    "Ahmed",
-                    "Jackson",
-                    "Noah",
-                    "Aiden",
-                    "Darren",
-                    "Isabella",
-                    "Aria",
-                    "John",
-                    "Greyson",
-                    "Peter",
-                    "Mohammed",
-                    "William",
-                    "Lucas",
-                    "Amelia",
-                    "Mason",
-                    "Mathew",
-                    "Richard",
-                    "Chris",
-                    "Mia",
-                    "Oliver",
-                ],
-                Varible2: [
-                    "USA",
-                    "UAE",
-                    "ITALY",
-                    "FLORIDA",
-                    "MEXICO",
-                    "INDIA",
-                    "CHINA",
-                    "CAMBODIA",
-                    "UNITED KINGDOM",
-                    "GERMANY",
-                    "AUSTRALIA",
-                    "BANGLADESH",
-                    "SWEDEN",
-                    "PAKISTAN",
-                    "MALDIVES",
-                    "SEYCHELLES",
-                    "BOLIVIA",
-                    "SOUTH AFRICA",
-                    "ZAMBIA",
-                    "ZIMBABWE",
-                    "SAUDI ARABIA",
-                    "CHILE",
-                    "SWEDEN",
-                    "VENEZUELA",
-                    "PUERTO RICO",
-                ],
-
-                Amount: [1000, 2500, 5555, 6666, 4444, 3333, 3333],
-                Content: "[Varible1] from [Varible2] has just withdrawn <b>$[Amount]</b>.",
-                // Timer
-                Show: ["stable", 5, 10],
-                Close: 5,
-                Time: [0, 23],
-                // Notification style
-                LocationTop: [false, "30%"],
-                LocationBottom: [true, "31%"],
-                LocationRight: [true, "10%"],
-                LocationLeft: [false, "10px"],
-                Background: "#000000",
-                BorderRadius: 5,
-                BorderWidth: 1,
-                BorderColor: "#091765",
-                TextColor: "white",
-                IconColor: "#ffffff",
-                // Notification Animated
-                AnimationEffectOpen: "slideInUp",
-                AnimationEffectClose: "slideOutDown",
-                // Number of notifications
-                Number: 40,
-                // Notification link
-                Link: [false, "index.html", "_blank"],
-            });
-        });
-    </script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            // Arrays of first and last names
-            const firstNames = [
-                "Alex", "Jordan", "Taylor", "Morgan", "Casey", "Jamie", "Avery", "Riley", "Quinn", "Blake",
-                "Charlie", "Dakota", "Elliot", "Frankie", "Harper", "Jesse", "Kai", "Logan", "Max", "Nicky",
-                "Peyton", "Reese", "Skyler", "Terry", "Addison", "Bailey", "Cameron", "Drew", "Eden", "Finley",
-                "Gray", "Hayden", "Indigo", "Jules", "Kendall", "London", "Marley", "Noel", "Oakley", "Paris"
-            ];
-
-            const lastNames = [
-                "Johnson", "Williams", "Brown", "Jones", "Miller", "Davis", "Garcia", "Rodriguez", "Wilson", "Martinez",
-                "Anderson", "Taylor", "Thomas", "Hernandez", "Moore", "Martin", "Jackson", "Thompson", "White", "Lopez",
-                "Lee", "Gonzalez", "Harris", "Clark", "Lewis", "Robinson", "Walker", "Perez", "Hall", "Young",
-                "Allen", "Sanchez", "Wright", "King", "Scott", "Green", "Baker", "Adams", "Nelson", "Hill"
-            ];
-
-
-            // Function to generate a random name
-            function getRandomName() {
-                const firstName = firstNames[Math.floor(Math.random() * firstNames.length)];
-                const lastName = lastNames[Math.floor(Math.random() * lastNames.length)];
-                return `${firstName} ${lastName}`;
-            }
-
-            // Function to generate random dollar amounts
-            function getRandomAmount(min, max) {
-                return `$${(Math.random() * (max - min) + min).toFixed(2)}`;
-            }
-
-            // Get all table rows
-            const rows = document.querySelectorAll('.table tbody tr');
-
-            function updateTable() {
-                rows.forEach(row => {
-                    // Get the name and amount cells using class
-                    const nameCell = row.querySelector('.name');
-                    const amountCell = row.querySelector('.amount');
-
-                    // Set a random name
-                    nameCell.textContent = getRandomName();
-
-                    // Set a random amount within a range
-                    amountCell.textContent = getRandomAmount(50, 1000);
-                });
-            }
-            setInterval(updateTable, 2000);
-        });
-    </script>
+   
 
 
     <script src="https://code.jivosite.com/widget/GR5cUkrgYp" async></script>
