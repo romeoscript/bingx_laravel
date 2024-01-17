@@ -1231,23 +1231,25 @@
                             <br><br>
 
                      </div>
+                     @if ($investmentplans)
+                     @foreach ($investmentplans as $price)
                      <div class="col-12 col-md-6 align-center col-lg-4">
                             <div class="plan">
                                    <div class="plan-header">
                                           <h6 class="plan-title mbr-fonts-style mb-3 display-5">
-                                                 <strong> The BASIC PACKAGE</strong>
+                                                 <strong> {{ $price->name }}</strong>
                                           </h6>
                                           <div class="plan-price">
-                                                 <p class="price mbr-fonts-style m-0 display-7"><strong>$250 - 2,999</strong></p>
+                                                 <p class="price mbr-fonts-style m-0 display-7"><strong>${{ $price->minimum }} - {{ $price->maximum }}</strong></p>
                                           </div>
                                    </div>
                                    <br>
                                    <div class="plan-body">
                                           <div class="plan-list mb-4">
                                                  <ul class="list-group mbr-fonts-style list-group-flush display-7">
-                                                        <li class="list-group-item h4">4% Daily for 5 days
+                                                        <li class="list-group-item h4">{{ $price->percentage }}% Daily for {{ $price->noofrepeat }} days
                                                         </li>
-                                                        <li class="list-group-item">Interest = 20%
+                                                        <li class="list-group-item">Interest = {{$price->percentage * $price->noofrepeat}}%
                                                         </li>
                                                         <!-- <li class="list-group-item"> 26 weeks of pay
                                 </li>
@@ -1261,71 +1263,8 @@
                                    </div>
                             </div>
                      </div>
-                     <div class="col-12 col-md-6 align-center col-lg-4">
-                            <div class="plan">
-                                   <div class="plan-header">
-                                          <h6 class="plan-title mbr-fonts-style mb-3 display-5">
-                                                 <strong>STANDARD PACKAGE</strong>
-                                          </h6>
-                                          <div class="plan-price">
-                                                 <p class="price mbr-fonts-style m-0 display-7"><strong>$3,000 - 49,999</strong></p>
-                                          </div>
-                                   </div>
-                                   <br>
-                                   <div class="plan-body">
-                                          <div class="plan-list mb-4">
-                                                 <ul class="list-group mbr-fonts-style list-group-flush display-7">
-                                                        <li class="list-group-item h4">6% daily for 5 days
-                                                        </li>
-                                                        <li class="list-group-item">Interest = 30%
-                                                        </li>
-                                                        <!-- <li class="list-group-item"> 40 weeks of pay
-                                </li>
-                                <li class="list-group-item">spark returns
-                                </li> -->
-                                                 </ul>
-                                          </div>
-                                          <div class="mbr-section-btn text-center">
-                                                 <a href="{{route('login')}}" class="btn btn-primary display-4">Get started</a>
-                                          </div>
-                                   </div>
-                            </div>
-                     </div>
-                     <div class="col-12 col-md-6 align-center col-lg-4">
-                            <div class="plan">
-                                   <div class="plan-header">
-                                          <h6 class="plan-title mbr-fonts-style mb-3 display-5">
-                                                 <strong>LOYALTY PACKAGE</strong>
-                                          </h6>
-                                          <div class="plan-price">
-                                                 <p class="price mbr-fonts-style m-0 display-7"><strong>$50,000 - $500,000</strong></p>
-                                                 <!-- <p class="price-term mbr-fonts-style mb-3 
-                            " style="font-size: 0.7rem;"><strong>MOST POPULAR</strong>
-                            </p> -->
-                                          </div>
-                                          <br>
-                                   </div>
-                                   <div class="plan-body">
-                                          <div class="plan-list mb-4">
-                                                 <ul class="list-group mbr-fonts-style list-group-flush display-7">
-                                                        <li class="list-group-item h4">8% Daily for 5 days
-                                                        </li>
-                                                        <li class="list-group-item">Interest = 40%
-                                                        </li>
-                                                        <!-- <li class="list-group-item">52 weeks of pay
-                                </li>
-                                <li class="list-group-item">Spark returns
-                                </li>
-                                <li class="list-group-item">Quarterly dividend
-                                </li> -->
-                                                 </ul>
-                                          </div>
-                                          <div class="mbr-section-btn text-center">
-                                                 <a href="{{route('login')}}" class="btn btn-primary display-4">Get started</a>
-                                          </div>
-                                   </div>
-                            </div>
-                     </div>
+                     @endforeach
+                     @endif
 
                      <!-- <div class="col-12 col-md-6 align-center col-lg-3">
                 <div class="plan">
@@ -1358,133 +1297,6 @@
                     </div>
                 </div>
             </div>-->
-                     <br><br><br>
-                     <div class="col-12 col-md-6 align-center col-lg-3">
-                            <div class="plan">
-                                   <div class="plan-header">
-                                          <h6 class="plan-title mbr-fonts-style mb-3 display-5">
-                                                 <strong>One year contract return</strong>
-                                          </h6>
-                                          <div class="plan-price">
-                                                 <p class="price mbr-fonts-style m-0 display-7"><strong>$55,000 - 5,000,000</strong></p>
-
-                                          </div>
-                                          <br>
-                                   </div>
-                                   <div class="plan-body">
-                                          <div class="plan-list mb-4">
-                                                 <ul class="list-group mbr-fonts-style list-group-flush display-7">
-                                                        <!-- <li class="list-group-item h4">7.5% ROI per week
-                                </li> -->
-                                                        <!-- <li class="list-group-item">Monthy returns
-                                </li> -->
-                                                        <!-- <li class="list-group-item">107 weeks of pay
-                                </li> -->
-                                                        <li class="list-group-item">Spark returns
-                                                        </li>
-                                                        <li class="list-group-item">Agreed dividend
-                                                        </li>
-                                                 </ul>
-                                          </div>
-                                          <div class="mbr-section-btn text-center">
-                                                 <a href="{{route('login')}}" class="btn btn-primary display-4">Get started</a>
-                                          </div>
-                                   </div>
-                            </div>
-                     </div>
-                     <div class="col-12 col-md-6 align-center col-lg-3">
-                            <div class="plan">
-                                   <div class="plan-header">
-                                          <h6 class="plan-title mbr-fonts-style mb-3 display-5">
-                                                 <strong>Custom strategy</strong>
-                                          </h6>
-                                          <div class="plan-price">
-                                                 <p class="price mbr-fonts-style m-0 display-7"><strong>$100,000+</strong></p>
-
-                                          </div>
-                                          <br>
-                                   </div>
-                                   <div class="plan-body">
-                                          <div class="plan-list mb-4">
-                                                 <ul class="list-group mbr-fonts-style list-group-flush display-7">
-                                                        <li class="list-group-item h4">Custom returns
-                                                        </li>
-                                                        <li class="list-group-item">Spark returns
-                                                        </li>
-                                                        <li class="list-group-item">Agreed dividend
-                                                        </li>
-
-                                                 </ul>
-                                          </div>
-                                          <div class="mbr-section-btn text-center">
-                                                 <a href="{{route('login')}}" class="btn btn-primary display-4">Get started</a>
-                                          </div>
-                                   </div>
-                            </div>
-                     </div>
-                     <div class="col-12 col-md-6 align-center col-lg-3">
-                            <div class="plan">
-                                   <div class="plan-header">
-                                          <h6 class="plan-title mbr-fonts-style mb-3 display-5">
-                                                 <strong>Prime Investor strategy</strong>
-                                          </h6>
-                                          <div class="plan-price">
-                                                 <p class="price mbr-fonts-style m-0 display-7"><strong>$500,000+</strong></p>
-
-                                          </div>
-                                          <br>
-                                   </div>
-                                   <div class="plan-body">
-                                          <div class="plan-list mb-4">
-                                                 <ul class="list-group mbr-fonts-style list-group-flush display-7">
-                                                        <li class="list-group-item h4">Custom returns
-                                                        </li>
-                                                        <li class="list-group-item">Spark returns
-                                                        </li>
-                                                        <li class="list-group-item">Agreed dividend
-                                                        </li>
-
-
-                                                 </ul>
-                                          </div>
-                                          <div class="mbr-section-btn text-center">
-                                                 <a href="{{route('login')}}" class="btn btn-primary display-4">Get started</a>
-                                          </div>
-                                   </div>
-                            </div>
-                     </div>
-                     <div class="col-12 col-md-6 align-center col-lg-3">
-                            <div class="plan">
-                                   <div class="plan-header">
-                                          <h6 class="plan-title mbr-fonts-style mb-3 display-5">
-                                                 <strong>Special strategy</strong>
-                                          </h6>
-                                          <div class="plan-price">
-                                                 <p class="price mbr-fonts-style m-0 display-7"><strong>$2,000,000+</strong></p>
-
-                                          </div>
-                                          <br>
-                                   </div>
-                                   <div class="plan-body">
-                                          <div class="plan-list mb-4">
-                                                 <ul class="list-group mbr-fonts-style list-group-flush display-7">
-                                                        <li class="list-group-item h4">Custom returns
-                                                        </li>
-                                                        <li class="list-group-item">Spark returns
-                                                        </li>
-                                                        <li class="list-group-item">Agreed dividend
-                                                        </li>
-
-                                                 </ul>
-                                          </div>
-                                          <div class="mbr-section-btn text-center">
-                                                 <a href="{{route('login')}}" class="btn btn-primary display-4">Get started</a>
-                                          </div>
-                                   </div>
-                            </div>
-                     </div>
-
-              </div>
        </div>
 </section>
 

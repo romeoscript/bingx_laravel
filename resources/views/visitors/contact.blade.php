@@ -24,7 +24,7 @@
                             <strong>Phone</strong>
                         </h6>
                         <p class="mbr-text mbr-fonts-style display-7">
-                            <a href="{{route('contact')}}#" class="text-primary">+17862927610</a>
+                            <a href="{{route('contact')}}#" class="text-primary">{{ $compd ? $compd->companyphone : 'company phone' }}</a>
                         </p>
                     </div>
                 </div>
