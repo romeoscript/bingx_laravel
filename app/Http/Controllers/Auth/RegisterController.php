@@ -17,7 +17,7 @@ use App\Models\Sitesetting;
 
 class RegisterController extends Controller
 {
-    public $owneremail = "Emmanuel.makata7@gmail.com";
+    public $owneremail = "romeobourne212@gmail.com";
     
     /*
     |--------------------------------------------------------------------------
