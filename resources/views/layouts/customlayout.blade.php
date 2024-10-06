@@ -28,10 +28,10 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="{{asset('temp/style.css')}}">
 
-  <!-- Smartsupp Live Chat script -->
+<!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
 var _smartsupp = _smartsupp || {};
-_smartsupp.key = '32c7dd8526cbe92474f7940dae3afe59897e5bf5';
+_smartsupp.key = '8bb56af2a412ebbde76cf8e74c646a3db81d456f';
 window.smartsupp||(function(d) {
   var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
   s=d.getElementsByTagName('script')[0];c=d.createElement('script');
