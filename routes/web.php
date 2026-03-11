@@ -13,8 +13,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('testemail', function () {
-    return new Adminmail ;
+    return new Adminmail;
 });
 
 Route::get('/logout', 'App\Http\Controllers\Auth\LoginController@logout');
@@ -479,35 +480,35 @@ Route::post('/userdashb_personal_address', [App\Http\Controllers\Userdashcontrol
 
 Route::post('/userdashb_social_media', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_social_media'])->name('userdashb_social_media');
 
-Route::get ('/userdashb_message_detail', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_message_detail'])->name('userdashb_message_detail');
+Route::get('/userdashb_message_detail', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_message_detail'])->name('userdashb_message_detail');
 
-Route::get ('/userdashb_notification', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_notification'])->name('userdashb_notification');
+Route::get('/userdashb_notification', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_notification'])->name('userdashb_notification');
 
-Route::get ('/userdashb_notification_detail', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_notification_detail'])->name('userdashb_notification_detail');
+Route::get('/userdashb_notification_detail', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_notification_detail'])->name('userdashb_notification_detail');
 
-Route::get ('/userdashb_password_reset', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_password_reset'])->name('userdashb_password_reset');
+Route::get('/userdashb_password_reset', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_password_reset'])->name('userdashb_password_reset');
 
-Route::get ('/userdashb_password_reset_save', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_password_reset_save'])->name('userdashb_password_reset_save');
+Route::get('/userdashb_password_reset_save', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_password_reset_save'])->name('userdashb_password_reset_save');
 
-Route::post ('/userdashb_deposit_request', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_deposit_request'])->name('userdashb_deposit_request');
+Route::post('/userdashb_deposit_request', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_deposit_request'])->name('userdashb_deposit_request');
 
 //profile pic upload
-Route::post ('/userdashb_profile_pic', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_profile_pic'])->name('userdashb_profile_pic');
+Route::post('/userdashb_profile_pic', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_profile_pic'])->name('userdashb_profile_pic');
 
-Route::get ('/userdashb_charts', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_charts'])->name('userdashb_charts');
+Route::get('/userdashb_charts', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_charts'])->name('userdashb_charts');
 
-Route::get ('/userdashb_map', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_map'])->name('userdashb_map');
+Route::get('/userdashb_map', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_map'])->name('userdashb_map');
 
 //funds transfer
-Route::get ('/userdashb_tranfer', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_tranfer'])->name('userdashb_tranfer');
-Route::post ('/userdashb_tranfer', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_tranfer_post'])->name('userdashb_tranfer_post');
+Route::get('/userdashb_tranfer', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_tranfer'])->name('userdashb_tranfer');
+Route::post('/userdashb_tranfer', [App\Http\Controllers\Userdashcontroller::class, 'userdashb_tranfer_post'])->name('userdashb_tranfer_post');
 
 //specific investment packages
-Route::get ('/stockplan', [App\Http\Controllers\Userdashcontroller::class, 'stockplan'])->name('stockplan');
-Route::get ('/forexplan', [App\Http\Controllers\Userdashcontroller::class, 'forexplan'])->name('forexplan');
+Route::get('/stockplan', [App\Http\Controllers\Userdashcontroller::class, 'stockplan'])->name('stockplan');
+Route::get('/forexplan', [App\Http\Controllers\Userdashcontroller::class, 'forexplan'])->name('forexplan');
 
-Route::get ('/realestateinvplan', [App\Http\Controllers\Userdashcontroller::class, 'realestateinvplan'])->name('realestateinvplan');
-Route::get ('/cryptoplan', [App\Http\Controllers\Userdashcontroller::class, 'cryptoplan'])->name('cryptoplan');
+Route::get('/realestateinvplan', [App\Http\Controllers\Userdashcontroller::class, 'realestateinvplan'])->name('realestateinvplan');
+Route::get('/cryptoplan', [App\Http\Controllers\Userdashcontroller::class, 'cryptoplan'])->name('cryptoplan');
 
 
 
@@ -539,3 +540,5 @@ Route::get('/testimony', [App\Http\Controllers\VisitorController::class, 'testim
 Route::get('/financialservices', [App\Http\Controllers\VisitorController::class, 'financialservices'])->name('financialservices');
 Route::get('/realestate', [App\Http\Controllers\VisitorController::class, 'realestate'])->name('realestate');
 Route::get('/crypto', [App\Http\Controllers\VisitorController::class, 'crypto'])->name('crypto');
+Route::get('/privacy', [App\Http\Controllers\VisitorController::class, 'privacy'])->name('privacy');
+Route::get('/refund', [App\Http\Controllers\VisitorController::class, 'refund'])->name('refund');

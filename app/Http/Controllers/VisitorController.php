@@ -230,6 +230,22 @@ class VisitorController extends Controller
         return view("visitors.testimony", $data);
     }
 
+    public function terms()
+    {
+        $inv_plans = Investmentplan::all();
+        $faqs = Faq::all();
+        $company_detail = Sitesetting::where('id', 1)->first();
+        $company_features = Feature::where('id', 1)->first();
+        $data = [];
+        $data['company_features'] = $company_detail;
+        $data['company_detail'] = $company_features;
+        $data['compd'] = $company_detail;
+        $data['investmentplans'] = $inv_plans;
+        $data['faqs'] = $faqs;
+        $data['title'] = "terms";
+        return view("visitors.terms", $data);
+    }
+
     public function postcontact(Request $request)
     {   # code...
         $name = $request->name;
@@ -248,5 +264,37 @@ class VisitorController extends Controller
         $data['company_detail'] = $company_detail;
         $data['title'] = "About Us";
         return redirect()->route("contact")->with("success", "message sent, we will respond to you as soon as we can");
+    }
+
+    public function privacy()
+    {
+        $inv_plans = Investmentplan::all();
+        $faqs = Faq::all();
+        $company_detail = Sitesetting::where('id', 1)->first();
+        $company_features = Feature::where('id', 1)->first();
+        $data = [];
+        $data['company_features'] = $company_detail;
+        $data['company_detail'] = $company_features;
+        $data['compd'] = $company_detail;
+        $data['investmentplans'] = $inv_plans;
+        $data['faqs'] = $faqs;
+        $data['title'] = "privacy";
+        return view("visitors.privacy", $data);
+    }
+
+    public function refund()
+    {
+        $inv_plans = Investmentplan::all();
+        $faqs = Faq::all();
+        $company_detail = Sitesetting::where('id', 1)->first();
+        $company_features = Feature::where('id', 1)->first();
+        $data = [];
+        $data['company_features'] = $company_detail;
+        $data['company_detail'] = $company_features;
+        $data['compd'] = $company_detail;
+        $data['investmentplans'] = $inv_plans;
+        $data['faqs'] = $faqs;
+        $data['title'] = "refund";
+        return view("visitors.refund", $data);
     }
 }
